@@ -79,12 +79,12 @@ nav ul .nav-icon{
     margin-left: 159px;
     margin-top: 38px;
 }
-#button-left-menu li{
-    margin-top: 11px;
-    padding: 7px 6px;
-    border-right: 1px solid #C9E5F9;
-}
+.button-home{
     
+    
+}
+
+
 
 nav .nav-button-left{
     display: flex;
@@ -101,16 +101,18 @@ nav .nav-button-right{
     
 }
 ul .button-home{
-    background-color: #ffffff;
-    padding: 10px;
-    border-left: 1px solid #C9E5F9;
+    padding: 13px 8px;
+    background-color: white;
     border-right: 1px solid #C9E5F9;
+    border-left: 1px solid #C9E5F9;
 }
 
-ul .button-disc{
-    padding: 9px;
+ul .button-discussions{
+    padding: 13px 8px;
     border-right: 1px solid #C9E5F9;
-    border-bottom: 1px solid #C9E5F9;
+    background: rgb(255 255 255 / 0%);
+    background: linear-gradient(
+0deg, rgba(238,174,202,0) 0%, rgba(234,244,249,1) 2%, rgba(234,244,249,1) 13%, rgba(234,244,249,1) 60%, rgb(255 255 255 / 0%) 79%);
 }
 
 nav{
