@@ -63,28 +63,39 @@ nav .nav-list li{
     background: rgb(238,174,202);
     background: linear-gradient(90deg, rgba(238,174,202,0.01) 0%, rgba(205,204,204,1) 19%, rgba(191,191,191,1) 50%, rgba(191,187,201,1) 78%, rgba(192,181,218,0.01) 100%);
 }
-nav ul .nav-icon{
+.nav-icon{
     background-image: url('https://es.wikipedia.org/w/skins/Vector/resources/skins.vector.styles.legacy/images/user-avatar.svg?b7f58');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     width: 12px;
-    
+   
 }
+.nav-icon-search{
+    background-image: url('https://es.wikipedia.org/w/skins/Vector/resources/common/images/search.svg?bbf78');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30px;
+    height: 14px;
+   
+}
+
+
 #button-left-menu{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+    width: 60px;
+    margin-left: 266px;
     font-size: 1.3rem;
-    margin-left: 159px;
     margin-top: 38px;
 }
-.button-home{
-    
-    
+#button-right-menu{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    font-size: 1.3rem;
+    margin-top: 38px;
+    align-items: center;
 }
-
-
 
 nav .nav-button-left{
     display: flex;
@@ -112,7 +123,7 @@ ul .button-discussions{
     border-right: 1px solid #C9E5F9;
     background: rgb(255 255 255 / 0%);
     background: linear-gradient(
-0deg, rgba(238,174,202,0) 0%, rgba(234,244,249,1) 2%, rgba(234,244,249,1) 13%, rgba(234,244,249,1) 60%, rgb(255 255 255 / 0%) 79%);
+    0deg, rgba(238,174,202,0) 0%, rgba(234,244,249,1) 2%, rgba(234,244,249,1) 13%, rgba(234,244,249,1) 60%, rgb(255 255 255 / 0%) 79%);
 }
 
 nav{
@@ -133,10 +144,20 @@ nav .section-right li{
     
     align-items: center;
 }
-input{
+#buscar{
     width: 250px;
     height: 28px;
+    
+    border: none;
+}
+.nav-search{
+    display: flex;
+    border: 1px solid #f6f6f6;
     margin-left: 15px;
+    align-items: center;
+    background-color: white;
+    padding-left: 5px;
+  
 }
 ul .button-read{
     background-color: #ffffff;
@@ -198,4 +219,5 @@ main .menu-list-aside{
     width: 100%;
     
 }
+
 
