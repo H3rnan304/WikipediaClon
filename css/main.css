@@ -147,16 +147,23 @@ nav .section-right li{
 #buscar{
     width: 250px;
     height: 28px;
-    
     border: none;
 }
 .nav-search{
     display: flex;
-    border: 1px solid #f6f6f6;
+    border: 1px solid #dbdada;
     margin-left: 15px;
     align-items: center;
     background-color: white;
     padding-left: 5px;
+    
+  
+}
+.nav-search:hover{
+    
+    border: 1px solid #b3b1b1;
+    
+    
   
 }
 ul .button-read{
@@ -177,9 +184,13 @@ ul .button-history{
 }
 
 
-main, aside{
+main, aside {
     display: flex;   
 }
+.main{
+    display: flex;
+}
+
 
 aside .aside-menu {
     width: 132px;
@@ -207,11 +218,12 @@ main .main-aside{
 }
 
 main .main-container{
-    
+    padding: 20px;
     width: 100%;
-    min-height: 500vh;
+    min-height: 300vh;
     background-color: white;
     border-top: 1px solid #C9E5F9;
+    border-bottom: 1px solid #C9E5F9;
     margin-top: 78px;
 }
 main .menu-list-aside{
@@ -219,5 +231,130 @@ main .menu-list-aside{
     width: 100%;
     
 }
+section .banner{
+    display: flex;
+    background-image: linear-gradient(
+        90deg, rgb(234, 244, 249,1) 0%, transparent ), url('https://upload.wikimedia.org/wikipedia/commons/e/e3/Wikipedia_logo_letters_banner.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 150px;
+    border: 1px solid #C8CCD1;
+    
+}
+.title{
+    font-size: 3rem;
+    font-family: 'Linux Libertine','Georgia','Times',serif;
+    font-weight: lighter;
+    
+}
+#container{
+    display: flex;
+    padding: 45px 22px;
+    width: 61%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+#count{
+    
+    text-align: justify;
+    padding: 22px;
+}
+section .title-text{
+    font-size: 1.5rem;
+    padding-top: 10px;
+}
+.file-text{
+    display: flex;
+    width: 100%;
+    font-size: 1.4rem;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 27px;
+    padding-top: 32px;
+    padding-right: 19px;
+}
+.news{
+    width: 60%;
+}
+
+.nav-list-banner{
+    display: flex;
+    text-align: center;
+    list-style: none;
+    font-size: 1.3rem;
+}
+.nav-list-banner li{
+    display: flex;
+    width: 63px;
+    height: 32px;
+    text-decoration: none; 
+    align-items: center;
+    font-weight: bold;
+    justify-content: center;
+    
+    
+}
+.nav-list-banner li:hover{
+   
+    background-color: rgba(234, 244, 249, 0.596);
+    
+}
+#first-step, #colaborar{
+    width: 116px;
+}
+.container-news, #container-link{
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    
+}
+#container-link{
+    width: 40%;
+}
+#container-right{
+    
+    border: 1px solid #C8CCD1;
+    padding: 20px;
+    
+}
+#container-left{
+    width: 100%;
+    min-height: 60vh;
+    border: 1px solid #C8CCD1;
+    padding: 20px;
+    margin-right: 10px;
+}
+.text-news{
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+}
+.imagen-text{
+    float: right;
+}
+#image-map{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+#list-actualidad {
+    padding-left:30px;
+    font-size: 1.5rem;
+    list-style-type:disc;
+    
+}
+footer{
+    width: 100%;
+    height: 100px;
+}
+.container-link{
+    display: flex;
+}
+
+    
 
 
