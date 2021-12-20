@@ -209,7 +209,7 @@ aside .aside-menu li{
 main .main-aside{
     display: flex;
     width: 160px;
-    min-height: 500vh;
+    min-height: 200vh;
     border-right: 1px solid #C9E5F9;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -220,7 +220,7 @@ main .main-aside{
 main .main-container{
     padding: 20px;
     width: 100%;
-    min-height: 300vh;
+    min-height: 200vh;
     background-color: white;
     border-top: 1px solid #C9E5F9;
     border-bottom: 1px solid #C9E5F9;
@@ -311,6 +311,7 @@ section .title-text{
     margin-top: 20px;
     flex-wrap: wrap;
     align-items: flex-start;
+    align-content: flex-start;
     
 }
 #container-link{
@@ -353,6 +354,34 @@ footer{
 }
 .container-link{
     display: flex;
+}
+.list-link{
+    padding-left: 30px;
+}
+.container-inside{
+    border-bottom: 1px dotted cadetblue;
+}
+.foo, .container-footer{
+    display: flex;
+    margin-top: 10px;
+    padding-left: 157px;
+    font-size: 1.2rem;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.nav-list-footer{
+    display: flex;
+    
+    height: 32px;
+    list-style: none;
+    align-items: center;
+    font-weight: bold;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+.nav-list-footer li{
+    text-decoration: none;
 }
 
     
